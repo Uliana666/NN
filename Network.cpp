@@ -47,8 +47,7 @@ void Network::Education(std::vector<double> data, std::vector<double> test) {
     lay.reserve(N);
     for (int i = 0; i < N; ++i) lay.push_back(output[K - 1][i] - test[i]);
     for (int i = K - 2; i >= 0; --i) {
-        auto bk = function[i + 1]->backward_prop(input[i + 1]);
-        for (size_t j = 0; j < lay.size(); ++j) lay[j] *= bk[j];
+        lay = function[i + 1]->backward_prop(input[i + 1], lay);
         std::vector<double> lay2(sizes[i], 0.l);
         for (int j = 0; j < sizes[i]; ++j)
             for (int k = 0; k < sizes[i + 1]; ++k)

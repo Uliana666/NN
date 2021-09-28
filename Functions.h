@@ -8,11 +8,11 @@
 
 struct Sigmoid : public AbstractActivationFunction{
     std::vector<double> forward_prop(std::vector<double> data) override;
-    std::vector<double> backward_prop(std::vector<double> data) override;
+    std::vector<double> backward_prop(std::vector<double> data, std::vector<double> dE) override;
 };
 class Softmax : public AbstractActivationFunction{
     std::vector<double> forward_prop(std::vector<double> data) override;
-    std::vector<double> backward_prop(std::vector<double> data, std::vector<double> dE);
+    std::vector<double> backward_prop(std::vector<double> data, std::vector<double> dE) override;
 };
 
 

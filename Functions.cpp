@@ -14,15 +14,6 @@ std::vector<double> Sigmoid::forward_prop(std::vector<double> data) {
         res.push_back(fun(e));
     return res;
 }
-
-/*std::vector<double> Sigmoid::backward_prop(std::vector<double> data) {
-    std::vector<double> res;
-    res.reserve(data.size());
-    for (auto e: data)
-        res.push_back(2. * Alpha * fun(e) * (1. - fun(e)));
-    return res;
-}*/
-
 std::vector<double> Sigmoid::backward_prop(std::vector<double> data, std::vector<double> dE) {
     for (int i = 0; i < data.size(); ++i)
         dE[i] *= 2. * Alpha * fun(data[i]) * (1. - fun(data[i]));

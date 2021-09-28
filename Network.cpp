@@ -8,6 +8,7 @@
 std::mt19937 gen(777);
 std::uniform_real_distribution<> dis(0.0, 0.5);
 Sigmoid sigm;
+Softmax sfmx;
 
 Network::Network() {
     w[0].resize(N), w[1].resize(K), w[2].resize(K);
@@ -18,8 +19,9 @@ Network::Network() {
         for (auto &j: i)
             for (double &k: j)
                 k = 1. * dis(gen);
-    for (int i = 0; i < K; ++i)
+    for (int i = 0; i < K - 1; ++i)
         function.push_back(&sigm);
+    function.push_back(&sfmx);
 }
 
 using namespace std;
@@ -42,7 +44,7 @@ std::vector<double> Network::Calc(std::vector<double> data) {
 
 void Network::Education(std::vector<double> data, std::vector<double> test) {
     output[K - 1] = Calc(std::move(data));
-    std::cout << output[K - 1][0] << ' ' << output[K - 1][1] << ' ' << output[K - 1][2] << ' ' << std::endl;
+    //std::cout << output[K - 1][0] << ' ' << output[K - 1][1] << ' ' << output[K - 1][2] << ' ' << std::endl;
     std::vector<double> lay;
     lay.reserve(N);
     for (int i = 0; i < N; ++i) lay.push_back(output[K - 1][i] - test[i]);
@@ -53,8 +55,11 @@ void Network::Education(std::vector<double> data, std::vector<double> test) {
             for (int k = 0; k < sizes[i + 1]; ++k)
                 lay2[j] += lay[k] * w[i][j][k];
         for (int j = 0; j < sizes[i]; ++j)
-            for (int k = 0; k < sizes[i + 1]; ++k)
-                w[i][j][k] -= n * lay[k] * output[i][j];
+            for (int k = 0; k < sizes[i + 1]; ++k) {
+                //std::cout << lay[k] * output[i][j] << std::endl;
+                if (i != K - 2) w[i][j][k] -= n * lay[k] * output[i][j];
+                else w[i][j][k] -= n / 100 * lay[k] * output[i][j];
+            }
         lay = lay2;
     }
 }

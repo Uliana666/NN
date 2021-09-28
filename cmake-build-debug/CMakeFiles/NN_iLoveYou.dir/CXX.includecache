@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/uliana/NN_iLoveYou/AbstractActivationFunction.h
+iostream
+-
+vector
+-
+
+/home/uliana/NN_iLoveYou/Functions.h
+AbstractActivationFunction.h
+/home/uliana/NN_iLoveYou/AbstractActivationFunction.h
+iostream
+-
+vector
+-
+
+/home/uliana/NN_iLoveYou/Network.cpp
+Network.h
+/home/uliana/NN_iLoveYou/Network.h
+const.h
+/home/uliana/NN_iLoveYou/const.h
+Functions.h
+/home/uliana/NN_iLoveYou/Functions.h
+iostream
+-
+random
+-
+utility
+-
+
+/home/uliana/NN_iLoveYou/Network.h
+const.h
+/home/uliana/NN_iLoveYou/const.h
+AbstractActivationFunction.h
+/home/uliana/NN_iLoveYou/AbstractActivationFunction.h
+random
+/home/uliana/NN_iLoveYou/random
+
+/home/uliana/NN_iLoveYou/const.h
+

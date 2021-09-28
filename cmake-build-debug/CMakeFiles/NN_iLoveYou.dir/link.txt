@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/NN_iLoveYou.dir/main.cpp.o CMakeFiles/NN_iLoveYou.dir/Network.cpp.o CMakeFiles/NN_iLoveYou.dir/Functions.cpp.o -o NN_iLoveYou 

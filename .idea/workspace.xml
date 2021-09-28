@@ -14,19 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79b130b0-4bab-4b29-8e8e-f56185f9f5d3" name="Changes" comment="Hi">
-      <change beforePath="$PROJECT_DIR$/AbstractActivationFunction.h" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractActivationFunction.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Functions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Functions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Network.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/Functions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/Functions.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/Network.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/Network.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/NN_iLoveYou" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/NN_iLoveYou" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="79b130b0-4bab-4b29-8e8e-f56185f9f5d3" name="Changes" comment="Hi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +49,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NN" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -99,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632818557235</updated>
       <workItem from="1632818558687" duration="21653000" />
-      <workItem from="1632842225288" duration="10322000" />
+      <workItem from="1632842225288" duration="10668000" />
     </task>
     <task id="LOCAL-00001" summary="Hi">
       <created>1632849909560</created>

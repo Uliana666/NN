@@ -4,8 +4,7 @@
 CMakeFiles/NN_iLoveYou.dir/Functions.cpp.o: \
  ../AbstractActivationFunction.h \
  ../Functions.cpp \
- ../Functions.h \
- ../const.h
+ ../Functions.h
 CMakeFiles/NN_iLoveYou.dir/Network.cpp.o: \
  ../AbstractActivationFunction.h \
  ../Functions.h \

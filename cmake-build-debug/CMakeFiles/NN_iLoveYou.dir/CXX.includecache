@@ -12,14 +12,6 @@ iostream
 vector
 -
 
-/home/uliana/NN_iLoveYou/Functions.cpp
-Functions.h
-/home/uliana/NN_iLoveYou/Functions.h
-const.h
-/home/uliana/NN_iLoveYou/const.h
-cmath
-/home/uliana/NN_iLoveYou/cmath
-
 /home/uliana/NN_iLoveYou/Functions.h
 AbstractActivationFunction.h
 /home/uliana/NN_iLoveYou/AbstractActivationFunction.h

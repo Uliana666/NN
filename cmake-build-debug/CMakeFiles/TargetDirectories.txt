@@ -1,3 +1,0 @@
-/home/uliana/NN_iLoveYou/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/uliana/NN_iLoveYou/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/uliana/NN_iLoveYou/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir

@@ -14,19 +14,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79b130b0-4bab-4b29-8e8e-f56185f9f5d3" name="Changes" comment="Softmax work">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="79b130b0-4bab-4b29-8e8e-f56185f9f5d3" name="Changes" comment="appearance of the code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractActivationFunction.h" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractActivationFunction.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Functions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Functions.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Network.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network.h" beforeDir="false" afterPath="$PROJECT_DIR$/Network.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/Functions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/Functions.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/Network.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/Network.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NN_iLoveYou.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/NN_iLoveYou" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/NN_iLoveYou" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
@@ -105,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632818557235</updated>
       <workItem from="1632818558687" duration="21653000" />
-      <workItem from="1632842225288" duration="19444000" />
+      <workItem from="1632842225288" duration="22261000" />
     </task>
     <task id="LOCAL-00001" summary="Hi">
       <created>1632849909560</created>
@@ -135,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632864040455</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="appearance of the code">
+      <created>1632867105463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632867105463</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hi" />
     <MESSAGE value="Softmax work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Softmax work" />
+    <MESSAGE value="appearance of the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="appearance of the code" />
   </component>
 </project>

@@ -5,6 +5,7 @@
 #include <random>
 
 std::mt19937 gen(777);
+//std::uniform_real_distribution<> dis(0.0, 0.5);
 std::uniform_real_distribution<> dis(0.0, 0.5);
 Sigmoid sigm;
 Softmax sfmx;

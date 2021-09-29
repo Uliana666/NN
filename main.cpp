@@ -5,7 +5,7 @@
 
 int main() {
     Network net;
-    std::ifstream test("test");
+    std::ifstream test("test5");
     std::vector<double> v(N), g(N);
     for (int i = 0; i < 500000; ++i) {
         for (int j = 0; j < N; ++j) test >> v[j];
@@ -14,9 +14,9 @@ int main() {
     }
     std::cout << "GO" << std::endl;
     while (true) {
-        double x, y, z;
-        std::cin >> x >> y >> z;
-        auto vt = net.Calc({x, y, z});
+        std::vector<double> val(N);
+        for (int i = 0; i < N; ++i) std::cin >> val[i];
+        auto vt = net.Calc(val);
         for (auto e: vt) std::cout << e << ' ';
         std::cout << std::endl;
     }
